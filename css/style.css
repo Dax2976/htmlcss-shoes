@@ -25,6 +25,10 @@ body{
     background-color: red;
   }
 
+#green{
+    background-color: rgba(0, 128, 0, 1);
+}
+
 .numbers {
     position: absolute;
     right: 0;
@@ -43,7 +47,8 @@ body{
     color: rgb(0, 0, 0);
   }
 
-#red {
+#red ,
+#green{
   height: 100vh;
   width: 100%;
   position: relative;
